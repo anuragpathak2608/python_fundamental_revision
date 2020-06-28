@@ -1,0 +1,49 @@
+python both compiled and interpreted
+
+compiled language means --> converting HHL to Low level language
+or converting from one language to other language
+0computer understand 0,1 or machine code
+compiler converts high level code to object code, machine code or byte code.
+
+First program get compiled >> then executed
+JAVA:
+Compilation: javac hello_world.java >>> create bytecode(.class file)
+execution : java hello_world
+
+compilation is done in one go and all the error(logical, sntax, symentec are raisd)
+once your program is free from error compiler allow you to run the program.
+
+compiler help or make you code interoperable (bytecode is platform independent)
+every os has diffrent instrution set and bytecode is platfrom dependent
+
+Interpreter:
+line by line.
+encounters error stops there
+further code will not get executed.
+
+---------------------------------------------------------------
+Python is both compiled and interpreted language.
+is HLL
+code is first complied and the executed by interpreter.
+
+when you create user defined modules, and you import these into .py file
+for very first time when will you execute your code the .pyc file will get
+created which contains compiled code.
+
+from next time the compliled code is used to save the time
+
+
+.PY
+Contains soruce code
+
+.PYC
+contains compiled code
+
+---------------------------------------------------------------
+python is a language ; uses PVM(python virtual machine)
+and it is implemented in diffrent forms such as
+
+CPython : base is C(most widely used python)
+Jython : base is java
+pypy:
+inronPython : Dot Net version()

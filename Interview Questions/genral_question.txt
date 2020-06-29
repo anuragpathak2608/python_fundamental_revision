@@ -1,0 +1,2 @@
+1. How will you specify python compliler in unix?
+   #!/usr/bin/python
